@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    Stripe.setPubishableDey($('metal[name="stripe-key"]').attr('content'));
+    Stripe.setPubishableKey($('metal[name="stripe-key"]').attr('content'));
     // watch for a form submission
     $("#form-submit-btn").click(function(event) {
         event.preventDefault();
         $('input[type=submit]').prop('disabled', true);
         var error = false;
         var ccNum = $('#card_number').val(),
-            cvNum = $('#card_year').val(),
+            cvcNum = $('#card_year').val(),
             expMonth = $('#card_month').val(),
             expYear = $('#card_year').val();
             
