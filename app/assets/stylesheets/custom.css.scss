@@ -6,10 +6,28 @@
 
 body {
   // graident from: http://uigradients.com/
-  background: -webkit-linear-gradient(90deg, #B993D6 10%, #8CA6DB 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #B993D6 10%, #8CA6DB 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #B993D6 10%, #8CA6DB 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #B993D6 10%, #8CA6DB 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #B993D6 10%, #8CA6DB 90%); /* W3C */
+
+  // background: -webkit-linear-gradient(90deg, #7474BF 10%, #348AC7 90%); /* Chrome 10+, Saf5.1+ */
+  // background:    -moz-linear-gradient(90deg, #7474BF 10%, #348AC7 90%); /* FF3.6+ */
+  // background:     -ms-linear-gradient(90deg, #7474BF 10%, #348AC7 90%); /* IE10 */
+  // background:      -o-linear-gradient(90deg, #7474BF 10%, #348AC7 90%); /* Opera 11.10+ */
+  // background:         linear-gradient(90deg, #7474BF 10%, #348AC7 90%); /* W3C */
+  
+  
+  background: -webkit-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* W3C */
+        
+        
     
+}
+
+.alert-notice, .alert-alert {
+  
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  
 }
